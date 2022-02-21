@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live audio</title>
+    <link rel="stylesheet" href="css/stylesLive.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/cb668d847c.js" crossorigin="anonymous"></script>
+
+    <!-- Script for Mobile NavBar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+</head>
+
+<body>
+
+    <nav class="container">
+        <div class="max-width">
+            <div class="logo"><a href="index.html">Fiwiting Radio</a> </div>
+            <ul class="menu-list">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#">SCHEDULE</a></li>
+                <li><a href="#home">DJ'S</a></li>
+                <li><a href="index.html ">CONTACT</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="music-track" id="music-track">
+        <div class="wrapper">
+            <div class="top-bar">
+                <span> Now Playing...</span>
+            </div>
+
+            <div class="img-area">
+                <img src="" alt="">
+            </div>
+
+            <div class="song-details">
+                <div class="name"> </div>
+                <div class="artist"> </div>
+            </div>
+
+            <div class="progress-area">
+                <div class="progress-bar"></div>
+                <div class="timer">
+                    <span class="current"> </span>
+                    <span class="duration"></span>
+                </div>
+                <audio id="main-audio" src=""></audio>
+            </div>
+
+            <div class="controls">
+                <div class="play-pause">
+                    <i class="material-icons">play_arrow</i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="js/live-stream.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/music-list.js"></script>
+</body>
+
+</html>
