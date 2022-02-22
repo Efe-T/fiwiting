@@ -524,4 +524,8 @@ footer span a:hover {
   .about .title {
     font-size: 25px;
   }
+  
+  .home {
+    height: 80vh;
+  }
 }
