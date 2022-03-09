@@ -546,4 +546,18 @@ footer span a:hover {
   .live {
     margin-top: 150px;
   }
+  
+  .home::before {
+  content: "";
+  background: url("../images/djset.png") no-repeat center;
+  background-color: #009b3a;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.7;
+}
 }
