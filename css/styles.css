@@ -536,4 +536,14 @@ footer span a:hover {
   .home {
     height: 80vh;
   }
+  
+  .live {
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .live {
+    margin-top: 150px;
+  }
 }
