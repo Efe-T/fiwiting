@@ -226,3 +226,11 @@ body {
     opacity: 1;
   }
 }
+
+@media (max-width: 480px) {
+  .button-area {
+    position: absolute;
+    margin-top: 650px;
+  }
+}
+
